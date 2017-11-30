@@ -109,3 +109,12 @@ footer {
     text-align: center;
     background: #fff;
 }
+
+
+/* media queries*/
+
+@media screen and (max-width: 480px) {
+    iframe {
+      width: 100%;
+    }
+}
