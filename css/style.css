@@ -49,14 +49,22 @@ p {
   color: #000;
 }
 
+strong {
+  font-size: 25px;
+}
+
 .intro-section {
-padding-top: 90px;
-text-align: center;
+  padding-top: 90px;
+  text-align: center;
 }
 
 .about-section {
-    padding-top: 50px;
-    text-align: center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.image {
+  width: 60%;
 }
 
 .location-section {
@@ -73,35 +81,28 @@ text-align: center;
     background: #fff;
 }
 
-.image {
-  width: 60%;
+form {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #c1c1c1;
+  text-decoration-style: none;
+  margin-left: 2px;
 }
 
 a.share-link {
   color: #c1c1c1;
   font-size: 20px;
   padding: 20px;
-}
-
-/*#mc_embed_signup {
-  display: inline-flex;
-  justify-content: space-around;
-}*/
-
-#mc_embed_signup_scroll {
-  background:#f6f6f6;
-  /*clear:left;*/
-  /*font:14px;*/
-  width:100%;
-}
-
-.signup {
-  position: absolute;
-  /*left: -1000px;*/
-}
-
-.d-flex.justify-content-center {
-  margin-top: 15px;
 }
 
 footer {
@@ -117,10 +118,14 @@ footer {
 
 /*form.html css*/
 
-.navbar.navbar-default.navbar-fixed-top.form {
-  height: 70px;
-  display: flex;
-  align-items: center;
+#navbar-form {
+  height: 90px;
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
 }
 
 .traders-form {
