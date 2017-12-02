@@ -159,4 +159,17 @@ a.navbar-brand {
     iframe {
       width: 100%;
     }
+    p {
+      font-size: 15px;
+    }
+    input {
+      width: 200px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+  iframe {
+    width: 1000px;
+    height: 900px;
+  }
 }
