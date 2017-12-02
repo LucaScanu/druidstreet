@@ -9,7 +9,7 @@ body, html {
     height: 100%;
     background: #fff;
     color: #000;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media(min-width:767px) {
@@ -36,6 +36,7 @@ of those sections to manage the look and feel of the site. */
 
 .navbar-default .navbar-nav>li>a {
   font-size: 20px;
+  font-style: italic;
   color: #000;
 }
 
@@ -45,12 +46,13 @@ a:link, a:visited, a:hover, a:active {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   color: #000;
 }
 
 strong {
-  font-size: 25px;
+  font-size: 20px;
+  font-style: italic;
 }
 
 .intro-section {
@@ -101,7 +103,7 @@ button {
 
 a.share-link {
   color: #c1c1c1;
-  font-size: 20px;
+  font-size: 18px;
   padding: 20px;
 }
 
@@ -119,7 +121,7 @@ footer {
 /*form.html css*/
 
 #navbar-form {
-  height: 100px;
+  height: 90px;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -128,19 +130,17 @@ footer {
   height: -webkit-fill-available;
 }
 
-.navbar-brand {
+a.navbar-brand {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 110px;
-  height: -webkit-fill-available;
+  width: 100px;
+  height: 90px;
 }
 
 #logo {
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 
 .traders-form {
@@ -149,9 +149,7 @@ footer {
 }
 
 .form-contact-section {
-    /*padding-top: 70px;*/
     text-align: center;
-    /*background: #fff;*/
 }
 
 
